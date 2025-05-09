@@ -26,7 +26,8 @@ Google Fonts - Roboto
 ├── script.js          # Logic for input handling and evaluation
 └── README.md          # Project documentation
 
-![image](https://github.com/user-attachments/assets/cdb7d69d-3661-4e5e-8f16-13ce34ebc25e)
+## 📸 Preview
+![CALCULATOR](https://github.com/user-attachments/assets/3df2be47-17e8-4c48-a9ca-c6e24edbd20f)
 
 🙌 Acknowledgements
 Designed and developed as part of Oasis Infobyte Internship Program
