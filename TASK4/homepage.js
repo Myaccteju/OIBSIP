@@ -1,15 +1,7 @@
+import { firebaseConfig } from "./firebase-config.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
-import {getAuth, onAuthStateChanged, signOut} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
-import{getFirestore, getDoc, doc} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"
-
-const firebaseConfig = {
-    apiKey: "AIzaSyDgBupZJpPBfR8J5Hb5XteBkaKrLgWv8yg",
-    authDomain: "login-authentication-9d64a.firebaseapp.com",
-    projectId: "login-authentication-9d64a",
-    storageBucket: "login-authentication-9d64a.firebasestorage.app",
-    messagingSenderId: "815574919806",
-    appId: "1:815574919806:web:b04eb3fe2db8cba394862f"
- };
+import { getAuth, onAuthStateChanged, signOut} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
+import{ getFirestore, getDoc, doc } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js";
 
  // Initialize Firebase
  const app = initializeApp(firebaseConfig);
