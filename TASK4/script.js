@@ -1,14 +1,4 @@
 import { auth } from './firebaseauth.js';
-import {
-  createUserWithEmailAndPassword,
-  signInWithEmailAndPassword,
-  sendPasswordResetEmail
-} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
-
-import {
-  setDoc,
-  doc
-} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js";
 
 // UI switching
 const signUpButton = document.getElementById('signUpButton');
@@ -72,6 +62,7 @@ document.getElementById('submitSignIn').addEventListener('click', async function
     messageDiv.innerHTML = `Error: ${error.message}`;
   }
 });
+
 
 // Handle Password Recovery
 document.getElementById('recoverPassword').addEventListener('click', async function (e) {

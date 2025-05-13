@@ -59,8 +59,8 @@ input{
     transition: border-color 0.3s ease;
 }
 
-.input-group{
-    margin-bottom: 2 rem;
+.input-group {
+    margin-bottom: 2rem;
     position: relative;
 }
 

@@ -1,14 +1,16 @@
  import { firebaseConfig } from "./firebase-config.js";
  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
+ import { sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
+
  import {
     getAuth, 
-    // createUserWithEmailAndPassword, 
-    // signInWithEmailAndPassword
+    createUserWithEmailAndPassword, 
+    signInWithEmailAndPassword
     } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
  import {
     getFirestore, 
-    // setDoc, 
-    // doc
+    setDoc, 
+    doc
     } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js";
 
  // Initialize Firebase
