@@ -44,7 +44,7 @@ Pages
 
 Setup Instructions
 -Clone this repository:
-    -git clone https://github.com/your-username/your-repo-name.git
+    -git clone https: (https://github.com/Myaccteju/OIBSIP/blob/main/TASK4)
 cd your-repo-name
 
 -Install Firebase via CDN (already included in HTML and JS files)
